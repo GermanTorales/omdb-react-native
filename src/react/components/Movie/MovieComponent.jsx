@@ -4,6 +4,8 @@ import { connect } from "react-redux";
 import SingleMovie from "./SingleMovie";
 
 const MovieComponent = ({ movie }) => {
+  console.log(movie);
+
   return <SingleMovie movie={movie} />;
 };
 
